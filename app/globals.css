@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.drawer_cart_item {
+    margin-bottom: 13px !important;
+}
+
+.drawer_cart_item_body {
+    height: 85px !important;
+}
+
+.dashboard-layout {
+    min-height: 100vh !important;
+}
+
+.dashboard-page {
+    min-height: 78vh !important;
+}
