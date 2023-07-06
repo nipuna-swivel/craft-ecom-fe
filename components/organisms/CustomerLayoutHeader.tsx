@@ -21,8 +21,8 @@ const CustomerLayoutHeader = () => {
 
   return (
     <div className="flex items-center py-8">
-      <div className="basis-1/4 text-xl font-semibold">
-        <Link href="/">Handmade Crafts</Link>
+      <div className="basis-1/4 text-xl font-semibold bg-yellow-100 p-5">
+        <Link href="/">Online Crafts Shop</Link>
       </div>
       <div className="basis-1/2">
         <SearchBox
