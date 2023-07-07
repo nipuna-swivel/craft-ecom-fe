@@ -13,7 +13,7 @@ const CartIcon: React.FC<ICartIconProps> = ({ itemsCount, totalPrice }) => {
     <div className="flex items-center justify-end">
       <Link href="/cart">
         <div>
-          <Badge count={itemsCount} color={"blue"} showZero>
+          <Badge count={itemsCount} color={"#faad14"} showZero>
             <ShoppingCartOutlined style={{ fontSize: 35 }} />
           </Badge>
         </div>
