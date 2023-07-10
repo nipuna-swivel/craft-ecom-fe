@@ -15,7 +15,7 @@ const CartTotalPriceCard: React.FC<ICartTotalPriceCardProps> = ({
       <Divider />
       <div className="flex justify-between">
         <span className="font-semibold text-xl">Subtotal:</span>
-        <span className="text-sky-500 font-semibold text-xl">
+        <span className="text-amber-500 font-semibold text-xl">
           LKR {totalPrice}
         </span>
       </div>

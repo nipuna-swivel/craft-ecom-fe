@@ -14,7 +14,7 @@ const AddToCartForm: React.FC<IAddToCartFormProps> = ({
   return (
     <div>
       <p className="font-semibold text-4xl">{craft?.name}</p>
-      <p className="text-sky-500 font-medium text-3xl">LKR {craft?.price}</p>
+      <p className="text-amber-500 font-medium text-3xl">LKR {craft?.price}</p>
       <p className="text-gray-500 text-sm">{craft?.description}</p>
       <Form
         onFinish={handleAddToCart}
