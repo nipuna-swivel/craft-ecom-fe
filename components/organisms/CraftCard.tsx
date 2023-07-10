@@ -12,7 +12,7 @@ interface ICraftCardProps {
 const CraftCard: React.FC<ICraftCardProps> = ({ image, price, name }) => {
   return (
     <Card
-      className="m-2"
+      className="m-2 bg-amber-100"
       hoverable
       style={{ width: 320 }}
       cover={<img alt="craft-image" src={image} style={{ height: 300 }} />}

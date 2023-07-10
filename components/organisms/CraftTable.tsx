@@ -47,7 +47,7 @@ const CraftTable: React.FC<ICraftTableProps> = ({
       render: (text: any, record: any) => (
         <span>
           <Link href={`/dashboard/crafts/edit/${record._id}`}>
-            <Button shape="circle" icon={<EditOutlined />} className="mr-3" />
+            <Button shape="circle" icon={<EditOutlined />} className="mr-3 bg-amber-100" />
           </Link>
           <Popconfirm
             title="Delete this craft"
@@ -60,7 +60,7 @@ const CraftTable: React.FC<ICraftTableProps> = ({
             <Button
               shape="circle"
               type="primary"
-              danger
+              className="bg-amber-500"
               icon={<DeleteOutlined />}
             />
           </Popconfirm>

@@ -27,7 +27,7 @@ const CustomerLayoutHeader = () => {
 			</div>
 			<div className="basis-1/2">
 				<SearchBox
-					placeholder={"Search for crafts"}
+					placeholder={"Search for Crafts"}
 					onSearch={(value) => setSearchValue(value)}
 					style={{ width: "100%" }}
 					size={"large"}
@@ -37,7 +37,7 @@ const CustomerLayoutHeader = () => {
 				<CartIcon itemsCount={cartItems.length} totalPrice={totalPrice} />
 			</div>
 			<div className="basis-1/4">
-				<Link  className="ml-8" href="/login">Dashboard</Link>
+				<Link  className="ml-8 hover:bg-amber-400" href="/login">Dashboard</Link>
 			</div>
 		</div>
 	);
