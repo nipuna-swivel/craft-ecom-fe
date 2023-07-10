@@ -2,6 +2,7 @@ import { useAppDispatch, useAppSelector } from "@/hooks";
 import { Button, Form, Input, message } from "antd";
 import { useRouter } from "next/navigation";
 import { login } from "@/features/auth/authSlice";
+import Link from "next/link";
 
 const LoginForm = () => {
   const router = useRouter();
@@ -54,6 +55,7 @@ const LoginForm = () => {
           <Button type="primary" htmlType="submit" loading={loading}>
             Login
           </Button>
+          <Link  className="ml-8" href="/">Go to Home</Link>
         </Form.Item>
       </Form>
     </div>

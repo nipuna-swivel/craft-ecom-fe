@@ -101,7 +101,7 @@ const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
                 {children}
               </div>
             </Content>
-            <Footer style={{ textAlign: "center" }}>Ecommerce App ©2023</Footer>
+            <Footer style={{ textAlign: "center" }}>Ignite Craft-shop Application ©2023</Footer>
           </Layout>
         </Layout>
       </body>

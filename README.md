@@ -1,6 +1,6 @@
-# Ecommerce App Frontend
+# Ignite Craft shop App Frontend
 
-The Handmade Crafts Online Store is a web application built using Next.js and Nest.js frameworks for a small business to
+The Ignight Crafts Online Store is a web application built using Next.js and Nest.js frameworks for a small business to
 sell their handmade crafts online. The application allows the business owner to manage their crafts through a dashboard,
 while customers can browse and purchase crafts from a public-facing page. The system also provides analytics about craft
 sales to track performance and identify top-selling crafts.
